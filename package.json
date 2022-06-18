@@ -1,0 +1,20 @@
+{
+  "name": "encrypt-and-decrypt-with-awskms",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc && node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^4.7.4"
+  },
+  "dependencies": {
+    "@aws-sdk/client-kms": "^3.112.0",
+    "buffer": "^6.0.3"
+  }
+}
